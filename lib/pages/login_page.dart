@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:practice_flutter/utils/routes.dart';
+import 'package:practice_flutter/widgets/custom_button.dart';
 void main(){
   runApp(LoginPage());
 }
@@ -44,6 +45,12 @@ class LoginPage extends StatelessWidget {
                     style: TextButton.styleFrom(minimumSize: Size(60, 40)),
                     child: Text("Login")
                 ),
+                MyRoundButton(
+                    title: "Signup",
+                    onPress: (){
+
+                    },
+                 )
               ],
             ),
           ),
